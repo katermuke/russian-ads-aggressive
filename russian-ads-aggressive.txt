@@ -1,7 +1,9 @@
 ! Title: Russian Ads Aggressive
 ! Description: Additional aggressive DNS blocklist for AdGuard Home
-! Focus: Russian ads, Yandex, VK/Mail.ru, RTB, analytics and trackers
+! Homepage: https://github.com/katermuke/russian-ads-aggressive
 ! Format: AdGuard Home / AdBlock syntax
+! Focus: Russian advertising, Yandex tracking, VK/Mail.ru ads,
+! RTB, analytics, mobile attribution and advertising networks.
 
 ! ============================================================
 ! YANDEX METRIKA & ANALYTICS
@@ -17,7 +19,7 @@
 ||yandexmetrica.com^
 
 ! ============================================================
-! YANDEX ADVERTISING / DIRECT / RTB
+! YANDEX ADVERTISING / RTB
 ! ============================================================
 
 ||an.yandex.ru^
@@ -42,7 +44,7 @@
 ||matchid.adfox.yandex.ru^
 
 ! ============================================================
-! YANDEX CLICK / TRACKING
+! YANDEX CLICK / REDIRECT TRACKING
 ! ============================================================
 
 ||clck.yandex.ru^
@@ -74,6 +76,12 @@
 ||pixel.vk.com^
 ||adapi.vk.com^
 ||ads-api.vk.com^
+
+! ============================================================
+! IMPORTANT
+! Основной домен vk.com намеренно НЕ блокируется.
+! ============================================================
+
 
 ! ============================================================
 ! ADRIVER
@@ -131,7 +139,7 @@
 ||smi2.net^
 
 ! ============================================================
-! RUSSIAN TEASER / NATIVE ADS
+! RUSSIAN TEASER / NATIVE ADVERTISING
 ! ============================================================
 
 ||directadvert.ru^
@@ -200,7 +208,7 @@
 ||imgg.mgid.com^
 
 ! ============================================================
-! APPNEXUS / XANDR / MICROSOFT ADVERTISING
+! APPNEXUS / XANDR
 ! ============================================================
 
 ||adnxs.com^
@@ -232,7 +240,7 @@
 ||revcontent.com^
 
 ! ============================================================
-! RTB / PROGRAMMATIC
+! RTB / PROGRAMMATIC ADVERTISING
 ! ============================================================
 
 ||rubiconproject.com^
@@ -250,7 +258,7 @@
 ||smaato.net^
 
 ! ============================================================
-! ANALYTICS — POSTHOG
+! POSTHOG ANALYTICS
 ! ============================================================
 
 ||eu.posthog.com^
@@ -258,7 +266,7 @@
 ||us.posthog.com^
 
 ! ============================================================
-! MOBILE ATTRIBUTION
+! APPSFLYER
 ! ============================================================
 
 ||app.appsflyer.com^
@@ -266,20 +274,37 @@
 ||t.appsflyer.com^
 ||events.appsflyer.com^
 
+! ============================================================
+! ADJUST
+! ============================================================
+
 ||app.adjust.com^
 ||s.adjust.com^
+
+! ============================================================
+! BRANCH MOBILE ATTRIBUTION
+! ============================================================
 
 ||bnc.lt^
 ||branch.io^
 
 ! ============================================================
-! ANALYTICS
+! MIXPANEL
 ! ============================================================
 
 ||mixpanel.com^
 ||api.mixpanel.com^
+
+! ============================================================
+! AMPLITUDE
+! ============================================================
+
 ||amplitude.com^
 ||api.amplitude.com^
+
+! ============================================================
+! SEGMENT ANALYTICS
+! ============================================================
 
 ||segment.io^
 ||api.segment.io^
@@ -337,12 +362,11 @@
 
 ||carrotquest.io^
 ||carrotquest.ru^
-
 ||retailrocket.ru^
 ||retailrocket.net^
 
 ! ============================================================
-! EMAIL / CUSTOMER TRACKING
+! AFFILIATE / REFERRAL TRACKING
 ! ============================================================
 
 ||click.mailchimp.com^
@@ -351,36 +375,35 @@
 ||redirect.viglink.com^
 
 ! ============================================================
-! AD NETWORKS / MOBILE ADS
+! MOBILE ADVERTISING NETWORKS
 ! ============================================================
 
 ||inmobi.com^
 ||ads.inmobi.com^
-
 ||vungle.com^
 ||adcolony.com^
 ||chartboost.com^
 
 ! ============================================================
-! ONESIGNAL TRACKING / PUSH
+! PUSH / MARKETING TRACKING
 ! ============================================================
 
 ||cdn.onesignal.com^
 ||api.onesignal.com^
 
 ! ============================================================
-! OPTIMIZATION / MARKETING
+! A/B TESTING / PERSONALIZATION
 ! ============================================================
 
 ||cdn.optimizely.com^
 ||cdn.dynamicyield.com^
 
 ! ============================================================
-! KLAVIYO TRACKING
+! KLAVIYO
 ! ============================================================
 
 ||static.klaviyo.com^
 
 ! ============================================================
-! END
+! END OF LIST
 ! ============================================================
