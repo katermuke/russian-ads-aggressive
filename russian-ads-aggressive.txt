@@ -1,0 +1,364 @@
+! Title: Russian Ads & Tracking Aggressive
+! Description: Additional aggressive DNS blocklist for AdGuard Home
+! Scope: Yandex, VK/Mail.ru, Russian ad networks, analytics, RTB
+! Format: AdGuard Home / AdBlock syntax
+! Warning: Aggressive list. Some apps and websites may require allowlisting.
+
+! ============================================================
+! YANDEX ANALYTICS
+! ============================================================
+
+||metrika.yandex.ru^
+||metrika.yandex.com^
+||mc.yandex.ru^
+||mc.yandex.com^
+||appmetrica.yandex.ru^
+||appmetrica.yandex.com^
+||appmetrica.yandex.net^
+||yandexmetrica.com^
+
+! ============================================================
+! YANDEX ADVERTISING / RTB
+! ============================================================
+
+||an.yandex.ru^
+||advertising.yandex.ru^
+||adfstat.yandex.ru^
+||yabs.yandex.ru^
+||yabs.yandex.com^
+||strm.yandex.ru^
+||strm.yandex.net^
+||yandexadexchange.net^
+||yandexadexchange.com^
+||mobile.yandexadexchange.net^
+
+! ============================================================
+! ADFOX
+! ============================================================
+
+||adfox.ru^
+||adfox.yandex.ru^
+||ads.adfox.ru^
+||banners.adfox.ru^
+||matchid.adfox.yandex.ru^
+
+! ============================================================
+! YANDEX EXTRA TRACKING
+! ============================================================
+
+||clck.yandex.ru^
+||clck.yandex.com^
+||counter.yadro.ru^
+
+! ============================================================
+! VK / MAIL.RU ANALYTICS
+! ============================================================
+
+||top.mail.ru^
+||top-fwz1.mail.ru^
+||counter.mail.ru^
+||analytics.mail.ru^
+||tracker.mail.ru^
+||trk.mail.ru^
+
+! ============================================================
+! VK ADS / MYTARGET
+! ============================================================
+
+||target.my.com^
+||targeting.my.com^
+||ad.my.com^
+||mytarget.ru^
+||ads.mail.ru^
+||ad.mail.ru^
+||ads.vk.com^
+||ads.vk.ru^
+||pixel.vk.com^
+||adapi.vk.com^
+||ads-api.vk.com^
+
+! ============================================================
+! VK RETARGETING
+! ============================================================
+
+||vk.com^$important
+! Не удалять эту строку выше, если вставляешь файл вручную.
+! В GitHub-версии ЕЁ НУЖНО УДАЛИТЬ.
+
+! ============================================================
+! ADRIVER
+! ============================================================
+
+||adriver.ru^
+||ad.adriver.ru^
+||content.adriver.ru^
+||master.adriver.ru^
+||track.adriver.ru^
+
+! ============================================================
+! SOLO WAY
+! ============================================================
+
+||soloway.ru^
+||soloway.com^
+||ssp.soloway.ru^
+||ads.soloway.ru^
+||rtb.soloway.ru^
+
+! ============================================================
+! RELAP
+! ============================================================
+
+||relap.io^
+||relap.ru^
+||relap.today^
+||api.relappro.com^
+
+! ============================================================
+! RUTARGET
+! ============================================================
+
+||rutarget.ru^
+||rutarget.com^
+||ads.rutarget.ru^
+||ssp.rutarget.ru^
+
+! ============================================================
+! BEGUN / RAMBLER ADS
+! ============================================================
+
+||begun.ru^
+||ad.begun.ru^
+||counter.rambler.ru^
+||top100.rambler.ru^
+||analytics.rambler.ru^
+
+! ============================================================
+! SMI2
+! ============================================================
+
+||smi2.ru^
+||smi2.net^
+
+! ============================================================
+! TEASER / NATIVE RUSSIAN ADS
+! ============================================================
+
+||directadvert.ru^
+||directadvert.net^
+||teasernet.com^
+||marketgid.com^
+||marketgid.com.ua^
+||lentainform.com^
+||kadam.net^
+||kadamb.ru^
+
+! ============================================================
+! BETWEEN / PROGRAMMATIC
+! ============================================================
+
+||between.digital^
+||betweenx.com^
+||betweenexchange.com^
+
+! ============================================================
+! ADMIXER
+! ============================================================
+
+||admixer.net^
+||admixer.ru^
+||admixer.com^
+
+! ============================================================
+! HYBRID
+! ============================================================
+
+||hybrid.ai^
+||hybrid.ru^
+||hybrid.net^
+
+! ============================================================
+! GETINTENT
+! ============================================================
+
+||getintent.com^
+||ads.getintent.com^
+||ssp.getintent.com^
+
+! ============================================================
+! WEBORAMA
+! ============================================================
+
+||weborama.ru^
+||weborama.com^
+
+! ============================================================
+! POSTHOG
+! ============================================================
+
+||eu.posthog.com^
+||us.posthog.com^
+||app.posthog.com^
+
+! ============================================================
+! MOBILE ATTRIBUTION / TRACKING
+! ============================================================
+
+||app.appsflyer.com^
+||t.appsflyer.com^
+||events.appsflyer.com^
+||app.adjust.com^
+||s.adjust.com^
+||bnc.lt^
+||branch.io^
+
+! ============================================================
+! FACEBOOK / META TRACKING
+! ============================================================
+
+||connect.facebook.net^
+||graph.facebook.com^
+||analytics.facebook.com^
+
+! ============================================================
+! OTHER ANALYTICS
+! ============================================================
+
+||mixpanel.com^
+||api.mixpanel.com^
+||api.amplitude.com^
+||amplitude.com^
+||segment.io^
+||api.segment.io^
+
+! ============================================================
+! RUSSIAN COUNTERS
+! ============================================================
+
+||liveinternet.ru^
+||counter.yadro.ru^
+||hotlog.ru^
+||hotlog.com^
+||openstat.ru^
+||openstat.net^
+||spylog.ru^
+
+! ============================================================
+! CALLTRACKING / MARKETING
+! ============================================================
+
+||calltouch.ru^
+||calltouch.net^
+||roistat.com^
+||roistat.ru^
+||calltracking.ru^
+
+! ============================================================
+! MARKETING AUTOMATION
+! ============================================================
+
+||carrotquest.io^
+||carrotquest.ru^
+||mindbox.ru^
+||mindbox.cloud^
+||retailrocket.ru^
+||retailrocket.net^
+
+! ============================================================
+! EMAIL / CUSTOMER TRACKING
+! ============================================================
+
+||click.mailchimp.com^
+||customer.io^
+||track.customer.io^
+
+! ============================================================
+! INTERCOM
+! ============================================================
+
+||widget.intercom.io^
+||api-iam.intercom.io^
+
+! ============================================================
+! TABOOLA
+! ============================================================
+
+||taboola.com^
+||cdn.taboola.com^
+||trc.taboola.com^
+||images.taboola.com^
+
+! ============================================================
+! MGID
+! ============================================================
+
+||mgid.com^
+||servicer.mgid.com^
+||jsc.mgid.com^
+||imgg.mgid.com^
+
+! ============================================================
+! APPNEXUS / XANDR
+! ============================================================
+
+||adnxs.com^
+||ib.adnxs.com^
+||secure.adnxs.com^
+||acdn.adnxs.com^
+||prebid.adnxs.com^
+||sin3-ib.adnxs.com^
+
+! ============================================================
+! RTB / GLOBAL PROGRAMMATIC
+! ============================================================
+
+||rubiconproject.com^
+||rubiconproject.net^
+||pubmatic.com^
+||pubmatic.net^
+||openx.net^
+||openx.com^
+||indexexchange.com^
+||indexww.com^
+||smartadserver.com^
+||smartadserver.net^
+||rtbhouse.com^
+||rtbhouse.net^
+
+! ============================================================
+! CRITEO
+! ============================================================
+
+||criteo.com^
+||criteo.net^
+||criteo.ru^
+
+! ============================================================
+! OUTBRAIN
+! ============================================================
+
+||outbrain.com^
+||outbrainimg.com^
+
+! ============================================================
+! REVCONTENT
+! ============================================================
+
+||revcontent.com^
+
+! ============================================================
+! MOBILE AD NETWORKS
+! ============================================================
+
+||inmobi.com^
+||ads.inmobi.com^
+||smaato.net^
+||vungle.com^
+||adcolony.com^
+||chartboost.com^
+||applovin.com^
+||ironsrc.com^
+
+! ============================================================
+! END OF LIST
+! ============================================================
